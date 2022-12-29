@@ -1,0 +1,131 @@
+@font-face {
+  font-family: 'Montserrat-Bold';
+  src: url('../fonts/Montserrat-Bold.ttf') format('truetype');
+  font-style: normal;
+  font-weight: normal;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  padding: 50px 200px;
+  font-family: 'Montserrat-Bold';
+}
+
+.resume {
+  display: flex;
+}
+
+.resume__skils-container {
+  background: linear-gradient(to bottom, #404040 10%, #00a8c6 90%);
+  padding: 10px;
+  color: white;
+}
+
+.face-img {
+  border: solid 2px white;
+  margin-bottom: 30px;
+  display: block;
+  margin: 0 auto;
+}
+
+.resume__classic-info {
+  border-bottom: solid 1px white;
+  padding: 10px;
+  padding-bottom: 30px;
+}
+
+.head-summary {
+  margin-top: 10px;
+}
+
+.text-summary {
+  border-bottom: solid 1px white;
+}
+
+.text-summary-content {
+  margin: 10px 0 20px 0;
+  font-size: 18px;
+  line-height: 28px;
+}
+
+.text__classic-info {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.resume-name-user {
+  margin-top: 10px;
+  font-size: 80px;
+}
+
+.resume-name-conteiner {
+  margin-left: 20px;
+  padding: 20px 0 20px 0;
+  border-bottom: solid 3px #00a8c6;
+  color: #00a8c6;
+}
+
+.resume__text-experience {
+  margin-left: 20px;
+  padding: 20px 0 20px 0;
+  border-bottom: solid 3px #00a8c6;
+}
+
+.work-list {
+  margin: 10px 0 20px 20px;
+}
+
+.resume__text-education {
+  margin-left: 20px;
+  padding: 20px 0 20px 0;
+  border-bottom: solid 3px #00a8c6;
+}
+
+.languages {
+  margin-left: 20px;
+  padding: 20px 0 20px 0;
+}
+
+.list-lang {
+  list-style-type: none;
+}
+
+.box-lvl {
+  width: 95px;
+  height: 13px;
+  background: #00a8c6;
+  display: inline-block;
+}
+
+.gray {
+  background: #d5d5d5;
+}
+
+.lvl-lang {
+  font-size: 19px;
+}
+
+.head-skils {
+  margin-bottom: 10px;
+}
+
+.skils-list {
+  margin-left: 18px;
+}
+
+.skils-list__item {
+  margin-top: 10px;
+}
+
+/* медиа запросы */
+
+@media (max-width: 1200px) {
+  body {
+    padding: 50px 50px;
+  }
+}

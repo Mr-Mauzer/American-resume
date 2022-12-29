@@ -1,0 +1,154 @@
+@font-face {
+  font-family: 'Montserrat-Bold';
+  src: url('../fonts/Montserrat-Bold.ttf') format('truetype');
+  font-style: normal;
+  font-weight: normal;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url(../img/background-body.jpg);
+  background-size: 100%;
+  padding: 0 20px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  font-family: 'Montserrat-Bold';
+}
+
+.face-side-resume {
+  max-width: 720px;
+  border: solid 7px #ffec2d;
+  border-radius: 20px;
+  background-color: #00abc2;
+  padding: 26px 59px 21px 39px;
+  margin: 10px auto 44px auto;
+}
+
+.back-side-resume {
+  max-width: 720px;
+  height: 314px;
+  border: solid 7px #ffec2d;
+  border-radius: 20px;
+  background-color: #00abc2;
+  margin: 0 auto;
+  text-align: center;
+  padding: 40px;
+}
+
+.conteiner {
+  display: flex;
+}
+
+h1 {
+  color: #ffec2d;
+  font-size: 36px;
+  text-align: center;
+}
+
+.key-text {
+  color: #b2d85a;
+  font-size: 20px;
+}
+
+.value-text {
+  color: #ffec2d;
+  font-size: 24px;
+}
+
+.conection-info {
+  margin-top: 18px;
+}
+
+.check-resume {
+  width: 244px;
+  height: 202px;
+  border: solid 7px #ffec2d;
+  background-color: #00abc2;
+  border-radius: 20px;
+  margin: 21px 0 21px 88px;
+}
+
+.btn-resume {
+  color: #00abc2;
+  background-color: #ffec2d;
+  border: none;
+  border-radius: 20px;
+  width: 201px;
+  height: 108px;
+  font-size: 64px;
+  margin: 18px 0 0 14px;
+}
+
+.nav-resume-text {
+  text-align: center;
+}
+
+.arrow-down {
+  text-align: center;
+  color: #ffec2d;
+  margin: 6px 0 0 100px;
+}
+
+.fartuk {
+  width: 200px;
+  height: 200px;
+  filter: invert(87%) sepia(85%) saturate(3959%) hue-rotate(327deg) brightness(105%) contrast(110%);
+}
+
+@media (max-width: 770px) {
+  .back-side-resume {
+    max-width: 500px;
+  }
+
+  .face-side-resume {
+    max-width: 500px;
+    padding: 26px 30px 21px 39px;
+  }
+
+  .check-resume {
+    width: 200px;
+    height: 160px;
+    margin: 21px 0 21px 20px;
+  }
+
+  .btn-resume {
+    width: 100px;
+    height: 80px;
+    font-size: 50px;
+    margin: 0 0 0 20px;
+  }
+
+  .arrow-down {
+    text-align: center;
+    color: #ffec2d;
+    margin: 6px 0 0 63px;
+  }
+}
+
+@media (max-width: 530px) {
+  .conteiner {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .check-resume {
+    width: 200px;
+    height: 160px;
+    margin: 21px 0 21px 20px;
+  }
+
+  .btn-resume {
+    margin: 2px 0 0 43px;
+  }
+
+  .arrow-down {
+    margin: 6px 0 0 80px;
+  }
+}
